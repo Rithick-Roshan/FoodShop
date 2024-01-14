@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FoodShop</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.0.1/remixicon.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">
+            <i class="ri-restaurant-line"></i>
+            <span>rosh</span>
+        </a>
+        <nav class="navbar">
+            <a class="active" href="#home">home</a>
+            <a href="#dishes">dishes</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#review">review</a>
+            <a href="#order">order</a>
+
+        </nav>
+        <div class="icons">
+            <i class="ri-menu-line" id="menu-bar"></i>
+            <i class="ri-search-2-line" id="search-icon"></i>
+            <a href="#"  class="heart"><i class="ri-heart-3-line"></i></a>
+            <a href="#" class="shopping"><i class="ri-shopping-cart-2-line"></i></a>
+
+        </div>
+        
+    </header>
+
+    <form action="" id="search-form">
+      <input type="search" name="" placeholder="search here..." id="search-box">
+      <label for="search-box" class="ri-search-2-line" ></label>
+      <i class="ri-close-fill" id="close"></i>
+    </form>
+
+    <section class="home" id="home">
+        <div class="home-slider swiper mySwiper ">
+            <div class="swiper-wrapper wrapper">
+               <div class="swiper-slide slide">
+                  <div class="content">
+                    <span>Our special dish</span>
+                    <h3>Spicy chicken</h3>
+                    <p>Spicy chicken, a tantalizing fusion of succulent flavors and fiery spices, delivers an exhilarating kick to the taste buds</p>
+                    <a href="#" class="btn">ordernow</a>
+                  </div>
+                  <div class="image">
+                    <img src="img/close-up-delicious-chicken-meal.jpg">
+                  </div>
+               </div>
+               <div class="swiper-slide slide">
+                  <div class="content">
+                    <span>Our special dish</span>
+                    <h3>pizza</h3>
+                    <p>Pizza, a culinary masterpiece, combines a delectable medley of fresh ingredients atop a perfectly baked crust, creating a universally loved dish that satisfies cravings with its irresistible blend of flavors.</p>
+                    <a href="#" class="btn">ordernow</a>
+                  </div>
+                  <div class="image">
+                    <img src="img/pizza-pizza-filled-with-tomatoes-salami-olives.jpg">
+                  </div>
+               </div>
+               <div class="swiper-slide slide">
+                  <div class="content">
+                    <span>Our special dish</span>
+                    <h3>Hot Burgger</h3>
+                    <p>A hot burger, sizzling and savory, delights the senses with its juicy, flame-kissed patty, nestled within a warm bun, offering a mouthwatering experience of bold, grilled perfection.</p>
+                    <a href="#" class="btn">ordernow</a>
+                  </div>
+                  <div class="image">
+                    <img src="img/grilled-cheeseburger-with-tomato-onion-fries-generated-by-ai.jpg">
+                  </div>
+               </div>
+
+            </div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <section class="dishes" id="dishes">
+      <h3 class="sub-heading">Our Dishes</h3>
+      <h1 class="heading">Popular Dishes</h3>
+      <div class="box-container">
+        <div class="box">
+          <a href="#" class="ri-heart-3-line"></a>
+          <a href="#" class="ri-eye-line"></a>
+          <img src="img/close-up-delicious-asian-food.jpg">
+          <h3>Chicken</h3>
+          <div class="stars">
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-half-line"></i>
+          </div>
+          <span>149.00 rupees</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+          <a href="#" class="ri-heart-3-line"></a>
+          <a href="#" class="ri-eye-line"></a>
+          <img src="img/gourmet-bowl-with-healthy-rice-meat-vegetables-generated-by-ai.jpg">
+          <h3>Meals</h3>
+          <div class="stars">
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-half-line"></i>
+          </div>
+          <span>99.00 rupees</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+          <a href="#" class="ri-heart-3-line"></a>
+          <a href="#" class="ri-eye-line"></a>
+          <img src="img/gourmet-chicken-biryani-with-steamed-basmati-rice-generated-by-ai.jpg">
+          <h3>Chicken Biryani</h3>
+          <div class="stars">
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-half-line"></i>
+          </div>
+          <span>119.00 rupees</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+          <a href="#" class="ri-heart-3-line"></a>
+          <a href="#" class="ri-eye-line"></a>
+          <img src="img/high-angle-chicken-meal.jpg">
+          <h3>Chicken gravy</h3>
+          <div class="stars">
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-half-line"></i>
+          </div>
+          <span>149.00 rupees</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+          <a href="#" class="ri-heart-3-line"></a>
+          <a href="#" class="ri-eye-line"></a>
+          <img src="img/homemade-meal-cooked-poultry-fresh-vegetable-celebration-generated-by-ai.jpg">
+          <h3>Full chicken Biryani</h3>
+          <div class="stars">
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-half-line"></i>
+          </div>
+          <span>199.00 rupees</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+        <div class="box">
+          <a href="#" class="ri-heart-3-line"></a>
+          <a href="#" class="ri-eye-line"></a>
+          <img src="img/lamb-bone-sauteed-bone-broth-with-herbs-tomato-sauce.jpg">
+          <h3>mutton gravy</h3>
+          <div class="stars">
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-fill"></i>
+            <i class="ri-star-half-line"></i>
+          </div>
+          <span>119.00 rupees</span>
+          <a href="#" class="btn">add to cart</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="about" id ="about">
+      <h3 class="sub-heading">About Us</h3>
+      <h1 class="heading">Why choose us?</h3>
+      <div class="row">
+        <div class="image">
+          <img src="img/vertical-shot-traditional-indian-paneer-butter-masala-cheese-cottage-curry-black-surface.jpg">
+
+        </div>
+        <div class="content">
+          <h3>Best foods in ERODE</h3>
+          <p>Welcome to Rosh, where culinary excellence meets your cravings. Our passion for quality ingredients and expert craftsmanship ensures a delightful dining experience that tantalizes your taste buds with every bite</p>
+          <div class="icons-container">
+            <div class="icons">
+              <i class="ri-truck-line"></i>
+              <span>Free Delivery</span>
+            </div>
+            <div class="icons">
+              <i class="ri-money-rupee-circle-line"></i>
+              <span>Easy Payment</span>
+            </div>
+            <div class="icons">
+              <i class="ri-customer-service-2-line"></i>
+              <span>24/7 Service</span>
+            </div>
+          </div>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu" id="menu">
+      <h3 class="sub-heading">Our Menu</h3>
+      <h1 class="heading">today's speciality</h1>
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="img/2150857684.jpg">
+            <a href="#" class="ri-heart-3-line"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-half-line"></i>
+            </div>
+            <h3>Fish Gravy</h3>
+            <p>Freshly caught fish infused with a delicate blend of herbs, expertly cooked to perfection, served with a side of golden egg goodness.</p>
+            <a href="#" class="btn">Add to cart</a>
+            <span class="pice">149.00 Rupee</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="img/chicken-skewers-with-slices-sweet-peppers-dill.jpg">
+            <a href="#" class="ri-heart-3-line"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-half-line"></i>
+            </div>
+            <h3>Chicken skewers</h3>
+            <p>Juicy chunks of marinated chicken, grilled to perfection, and served on skewers for a delightful and savory experience.</p>
+            <a href="#" class="btn">Add to cart</a>
+            <span class="pice">149.00 Rupee</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="img/delicious-goulash-stew-table.jpg">
+            <a href="#" class="ri-heart-3-line"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-half-line"></i>
+            </div>
+            <h3>mutton gravy</h3>
+            <p>Slow-cooked tender mutton immersed in a rich and flavorful gravy, a culinary delight that promises a taste of pure indulgence.</p>
+            <a href="#" class="btn">Add to cart</a>
+            <span class="pice">149.00 Rupee</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="img/fried-fish-white-plate.jpg">
+            <a href="#" class="ri-heart-3-line"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-half-line"></i>
+            </div>
+            <h3>Fried Fish</h3>
+            <p> Delight your taste buds with our golden-brown, perfectly seasoned fried fish, offering a delightful crunch in every bite</p>
+            <a href="#" class="btn">Add to cart</a>
+            <span class="pice">149.00 Rupee</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="img/top-view-delicious-fish-meal-tray.jpg">
+            <a href="#" class="ri-heart-3-line"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-half-line"></i>
+            </div>
+            <h3>Fish Meal</h3>
+            <p>Enjoy a wholesome fish meal, featuring succulent fish fillets, paired with a medley of vibrant flavors and served with your choice of sides for a complete and satisfying dining experience.</p>
+            <a href="#" class="btn">Add to cart</a>
+            <span class="pice">119.00 Rupee</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="img/penne-pasta-tomato-sauce-with-chicken-tomatoes-wooden-table.jpg">
+            <a href="#" class="ri-heart-3-line"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-half-line"></i>
+            </div>
+            <h3>Pasta</h3>
+            <p>Savor the exquisite blend of al dente pasta and rich tomato sauce in our flavorful tomato pasta, a classic favorite that promises a taste of comfort and satisfaction.</p>
+            <a href="#" class="btn">Add to cart</a>
+            <span class="pice">99.00 Rupee</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="img/korean-instant-noodle-tteokbokki-korean-spicy-sauce-ancient-food.jpg">
+            <a href="#" class="ri-heart-3-line"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-half-line"></i>
+            </div>
+            <h3>Noodles</h3>
+            <p> Indulge in our expertly crafted noodles, stir-fried to perfection with a symphony of fresh vegetables and savory sauces for a truly delightful culinary experience.</p>
+            <a href="#" class="btn">Add to cart</a>
+            <span class="pice">99.00 Rupee</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="img/plate-lamb-kebabs-with-vegetables-bowl-red-sauce.jpg">
+            <a href="#" class="ri-heart-3-line"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-half-line"></i>
+            </div>
+            <h3> Lolipop Chicken</h3>
+            <p>Bite into crispy perfection with our succulent lolipop chicken, seasoned to tantalize your taste buds and served with a side of zesty dipping sauce</p>
+            <a href="#" class="btn">Add to cart</a>
+            <span class="pice">99.00 Rupee</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="img/chuchi-shrimp-plate-with-fresh-pepper-seeds.jpg">
+            <a href="#" class="ri-heart-3-line"></a>
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-half-line"></i>
+            </div>
+            <h3>Squid </h3>
+            <p>Experience the ocean's bounty with our expertly grilled squid, seasoned to perfection for a flavorful and tender seafood sensation</p>
+            <a href="#" class="btn">Add to cart</a>
+            <span class="pice">149.00 Rupee</span>
+          </div>
+        </div>
+        <div class="box">
+          <div class="image">
+            <img src="img/fresh-salmon-garnish-with-salad.jpg">
+            <a href="#" class="ri-heart-3-line"></a>
+
+          </div>
+          <div class="content">
+            <div class="stars">
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-fill"></i>
+              <i class="ri-star-half-line"></i>
+            </div>
+            <h3>Salmon salad</h3>
+            <p> Dive into a refreshing blend of flaky grilled salmon, crisp garden greens, and vibrant vegetables, all tossed in a tangy dressing for a light and satisfying salad experience.</p>
+            <a href="#" class="btn">Add to cart</a>
+            <span class="pice">149.00 Rupee</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="review" id="review">
+      <h3 class="sub-heading">Customer's review</h3>
+      <h1 class="heading">What they say</h1>
+      <div class="swiper mySwiper review-slider">
+        <div class="swiper-wrapper wrapper">
+          <div class="swiper-slide slide">
+            <i class="ri-double-quotes-l"></i>
+            <div class="user">
+              <img src="img/testimonial-perfil-1.png">
+              <div class="user-info">
+                <h3>Arya</h3>
+                <div class="stars">
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-half-line"></i>
+                </div>
+              </div>
+            </div>
+            <p>I recently dined at ROSH, and I must say, the flavors were absolutely authentic and delightful. Each dish seemed to be crafted with care, and you could taste the quality ingredients. I highly recommend trying their signature dishes for a true culinary experience!</p>
+          </div>
+          <div class="swiper-slide slide">
+            <i class="ri-double-quotes-l"></i>
+            <div class="user">
+              <img src="img/testimonial-perfil-2.png">
+              <div class="user-info">
+                <h3>Arya</h3>
+                <div class="stars">
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-half-line"></i>
+                </div>
+              </div>
+            </div>
+            <p>ROSH not only excels in the culinary department but also creates a warm and cozy atmosphere for diners. The ambiance is perfect for a casual dinner or a celebration. The friendly staff adds to the overall positive experience, making it a go-to spot for me</p>
+          </div>
+          <div class="swiper-slide slide">
+            <i class="ri-double-quotes-l"></i>
+            <div class="user">
+              <img src="img/testimonial-perfil-3.png">
+              <div class="user-info">
+                <h3>Maria</h3>
+                <div class="stars">
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-half-line"></i>
+                </div>
+              </div>
+            </div>
+            <p>What I love about ROSH is the diverse menu. Whether you're a fan of traditional favorites or looking to try something new, they've got it all. The extensive menu ensures there's something for everyone, and the quality across the board is consistently impressive.</p>
+          </div>
+          <div class="swiper-slide slide">
+            <i class="ri-double-quotes-l"></i>
+            <div class="user">
+              <img src="img/testimonial-perfil-4.png">
+              <div class="user-info">
+                <h3>Jhon</h3>
+                <div class="stars">
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-half-line"></i>
+                </div>
+              </div>
+            </div>
+            <p>The emphasis on freshness at ROSH is evident in every bite. The ingredients are top-notch, and you can taste the difference. From crisp vegetables to perfectly cooked proteins, each dish is a testament to their commitment to providing a fresh and memorable dining experience</p>
+          </div>
+          <div class="swiper-slide slide">
+            <i class="ri-double-quotes-l"></i>
+            <div class="user">
+              <img src="img/WhatsApp Image 2024-01-14 at 17.54.02_94396576.jpg">
+              <div class="user-info">
+                <h3>SaranDev</h3>
+                <div class="stars">
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-fill"></i>
+                  <i class="ri-star-half-line"></i>
+                </div>
+              </div>
+            </div>
+            <p>One of the standout features of ROSH is their exceptional service. The staff goes above and beyond to make diners feel welcome and attended to. They are knowledgeable about the menu and offer helpful recommendations, making the overall dining experience not just about the food but also about the excellent service</p>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+
+    </section>
+    
+    <section class="order" id="order">
+      <h3 class="sub-heading">Order now</h3>
+      <h1 class="heading">free and fast</h1>
+      <form action="">
+        <div class="inputBox">
+          <div class="input">
+            <span>Your Name</span>
+            <input type="text" placeholder="Enter your name">
+          </div>
+          <div class="input">
+            <span>Your Number</span>
+            <input type="number" placeholder="Enter your number">
+          </div>
+        </div>
+        <div class="inputBox">
+          <div class="input">
+            <span>Your Order</span>
+            <input type="text" placeholder="Enter food name">
+          </div>
+          <div class="input">
+            <span>Additional Food</span>
+            <input type="text" placeholder="Extra with food">
+          </div>
+        <div class="inputBox">
+          <div class="input">
+            <span>How Much</span>
+            <input type="number" placeholder="How many orders">
+          </div>
+          <div class="input">
+            <span>Date And Time</span>
+            <input type="date" placeholder="Extra with food">
+          </div>
+        <div class="inputBox">
+          <div class="input">
+            <span>Your address</span>
+            <textarea name="" placeholder="Enter your address" id="" cols="30" rows="10"></textarea>
+          </div>
+          <div class="input">
+            <span>Your Message</span>
+            <textarea name="" placeholder="Enter your message " id="" cols="30" rows="10"></textarea>
+          </div>
+          <input type="submit" value="Order now" class="btn">
+        </div>
+        
+      </form>
+    </section>
+
+    <section class="footer" id="footer">
+      <div class="box-container">
+        <div class="box">
+          <h3> Locations </h3>
+          <a href="#">Erode</a>
+          <a href="#">Theni</a>
+          <a href="#">Madurai</a>
+          <a href="#">Dindigul</a>
+          <a href="#">Trichy</a>
+        </div>
+        <div class="box">
+          <h3> Quick Links </h3>
+          <a href="#home">Home</a>
+          <a href="#dishes">Dishes</a>
+          <a href="#about">About</a>
+          <a href="#menu">Menu</a>
+          <a href="#review">Review</a>
+          <a href="#order">Order</a>
+        </div>
+        <div class="box">
+          <h3> Contact Info </h3>
+          <a href="#">+91-999 888 7771</a>
+          <a href="#">+91-989 911 1110</a>
+          <a href="#">rosh100@gmail.com</a>
+          <a href="#">rosh75@gmail.com</a>
+          <a href="#">Theni,Tamilnadu</a>
+        </div>
+      </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="Main.js"> </script>
+</body>
+</html>
